@@ -1,15 +1,13 @@
 import React from 'react';
-import {Button, FormTextarea} from "shards-react";
+import Message from './Message/Message.js';
+import Generate from './Generate/Generate.js';
 
 const Input = (props) => {
     return(
     <div>
-        <h2>Message</h2>
-        <p className="mb-2">Put the message you want to make shareable on WhatsApp here</p>
-        <FormTextarea rows="10" cols="50" onChange={props.change.messageChangeHandler}></FormTextarea>
+        <Message/>
         <br />
-        <Button outline theme="primary" onClick={props.click}>Generate</Button>
-        <p className="mb-2">Click 'Generate' when the Message is ready</p>
+        <Generate />
     </div>
     );
 }
