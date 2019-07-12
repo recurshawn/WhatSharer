@@ -1,13 +1,17 @@
 import React from 'react';
-import Message from './Message/Message.js';
-import Generate from './Generate/Generate.js';
+import MessageInfo from './MessageInfo/MessageInfo.js';
+import {FormTextarea} from 'shards-react';
 
 const Input = (props) => {
     return(
     <div>
-        <Message/>
+        <MessageInfo />
+        <FormTextarea 
+            rows="10"
+            
+            onChange={props.change.messageChangeHandler}
+        />
         <br />
-        <Generate />
     </div>
     );
 }
