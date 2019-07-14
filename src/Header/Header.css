@@ -1,0 +1,25 @@
+body {
+    padding-top: 30px;
+    background-color: #128c7e;
+}
+
+.bg-primary {
+  background-color: #075e54 !important;
+}
+
+.Navb{
+  background-color: #075e54 !important;
+}
+.NavLink:hover
+{
+  color: #ece5dd !important;
+}
+.navText {
+  color: #128c7e !important;
+  font-weight: bold;
+}
+
+.navTitle {
+  color: #ece5dd;
+
+}

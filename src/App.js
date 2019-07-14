@@ -2,8 +2,13 @@ import React, { Component } from 'react';
 import './App.css';
 import Input from './Input/Input.js';
 import Output from './Output/Output.js';
+import Header from './Header/Header.js';
 import "bootstrap/dist/css/bootstrap.min.css";
-import "shards-ui/dist/css/shards.min.css"
+import "shards-ui/dist/css/shards.min.css";
+import "./index.css";
+
+///import {FormTextarea} from 'shards-react';
+///dfdffd
 /*  Component structure
 
     App
@@ -36,31 +41,34 @@ class App extends Component {
     buttoncode: "",
   }
 
-  messageChangeHandler = (event) => {
-    this.setState({message: event.target.value});
-    var msg = this.state.message;
-    alert(msg); //DEBUGGING: If the transfer works, alert will show
+  messageChangeHandler = (e) => {
+    this.setState({message: e.target.value});
   }
 
-  // IGNORE THIS FOR NOW
-  // generateHandler = (event) => {
-  //   var link = encodeURIComponent(event.target.value);
-  //   link = "https://api.whatsapp.com/send?text=" + link;
-  //   //but_link = 
-  //   alert(link);
-  //   //return link;
-  // }
+  
+  generateHandler = () => {
+    var link = encodeURIComponent(this.state.message);
+    link = "https://api.whatsapp.com/send?text=" + link;
+    this.setState({messageurl: link});
+    var but_link = '<a href="'+link+'"><img src="https://blog.oppedahl.com/wp-content/uploads/2017/01/whatsapp-share.png" width="140" height="75" title="White flower" alt="Flower"></a>';
+    this.setState({buttoncode: but_link});
+  }
 
   render() {
     return(
       <div className="App">
-        <h1>WhatsAppify</h1>
-        <p>{this.state.message}</p>
-        <Input 
-          change = {this.messageChangeHandler} 
-          //click = {this.generateHandler}
-        />
-        <Output />
+        <Header />
+        <div className="bod">
+          <Input 
+            change = {this.messageChangeHandler} 
+          />
+          <Output 
+            click = {this.generateHandler}
+            urlDisp = {this.state.messageurl}
+            buttonDisp = {this.state.buttoncode}
+          />
+        </div>
+        <br />
       </div>
     );
   }

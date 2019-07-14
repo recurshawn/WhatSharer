@@ -4,14 +4,20 @@ import URL from './URL/URL.js';
 import ButtonCode from './ButtonCode/ButtonCode.js';
 
 
-const Output = () => {
+const Output = (props) => {
     return(
     <div>
-        <Generate />
+        <Generate 
+            click = {props.click}
+        />
         <hr />
-        <URL/>
+        <URL
+            disp = {props.urlDisp}
+        />
         <br />
-        <ButtonCode />
+        <ButtonCode 
+            disp = {props.buttonDisp}
+        />
     </div>
     );
 }

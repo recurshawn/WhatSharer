@@ -7,9 +7,8 @@ const Input = (props) => {
     <div>
         <MessageInfo />
         <FormTextarea 
-            rows="10"
-            
-            onChange={props.change.messageChangeHandler}
+            rows="5"
+            onChange={props.change}
         />
         <br />
     </div>

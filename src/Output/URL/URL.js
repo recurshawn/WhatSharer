@@ -3,11 +3,14 @@ import URLInfo from './URLInfo/URLInfo.js';
 
 import {FormTextarea} from "shards-react";
 
-const URL = () => {
+const URL = (props) => {
     return(
     <div>
         <URLInfo />
-        <FormTextarea rows="10"/>
+        <FormTextarea 
+            rows="5"
+            value = {props.disp}
+        />
     </div>
     );
 }
