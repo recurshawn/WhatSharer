@@ -8,14 +8,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  Dropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  InputGroup,
-  InputGroupAddon,
-  InputGroupText,
-  FormInput,
   Collapse
 } from "shards-react";
 
