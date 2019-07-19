@@ -3,6 +3,7 @@ import './App.css';
 import Input from './Input/Input.js';
 import Output from './Output/Output.js';
 import Header from './Header/Header.js';
+import Footer from './Footer/Footer.js';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
 import "./index.css";
