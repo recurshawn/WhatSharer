@@ -45,14 +45,14 @@ class Navb extends React.Component {
   render() {
     return (
       <Navbar type="dark" theme="primary" expand="md" className="Navb">
-        <NavbarBrand href="#">WhatsAppr</NavbarBrand>
+        <NavbarBrand href="#">Use WhatsAppr</NavbarBrand>
         <NavbarToggler onClick={this.toggleNavbar} />
 
         <Collapse open={this.state.collapseOpen} navbar>
           <Nav navbar>
             <NavItem>
               <NavLink href="#">
-                How to Use
+                Guide
               </NavLink>
             </NavItem>
            
@@ -62,6 +62,11 @@ class Navb extends React.Component {
             <NavItem>
               <NavLink href="#">
                 About me
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#">
+                Disclaimer
               </NavLink>
             </NavItem>
           </Nav>

@@ -2,7 +2,9 @@ body {
     padding-top: 30px;
     background-color: #128c7e;
 }
-
+h1 {
+  color: #ece5dd;
+}
 .bg-primary {
   background-color: #075e54 !important;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import URLInfo from './URLInfo/URLInfo.js';
 
-import {FormTextarea} from "shards-react";
+import {FormTextarea, Button} from "shards-react";
 
 const URL = (props) => {
     return(
@@ -11,6 +11,9 @@ const URL = (props) => {
             rows="5"
             value = {props.disp}
         />
+        <Button 
+            theme="primary"
+        >Copy</Button>
     </div>
     );
 }
