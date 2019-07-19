@@ -67,6 +67,7 @@ class App extends Component {
             urlDisp = {this.state.messageurl}
             buttonDisp = {this.state.buttoncode}
           />
+          <Footer />
         </div>
         <br />
       </div>
