@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Input from './Input/Input.js';
+import MessageArea from './MessageArea/MessageArea.js';
 import Output from './Output/Output.js';
 import Header from './Header/Header.js';
 import Footer from './Footer/Footer.js';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
-import "./index.css";
+
 
 ///import {FormTextarea} from 'shards-react';
 ///dfdffd
@@ -42,17 +42,18 @@ class App extends Component {
     buttoncode: "",
   }
 
+  //updates the state of new message whenever a change is detected
   messageChangeHandler = (e) => {
     this.setState({message: e.target.value});
   }
 
-  
-  generateHandler = () => {
+  //Call this function when you want to use the latest message url
+  //It updates the url state and returns the link too
+  messageurlGenerator = () => {
     var link = encodeURIComponent(this.state.message);
     link = "https://api.whatsapp.com/send?text=" + link;
     this.setState({messageurl: link});
-    var but_link = '<a href="'+link+'"><img src="https://blog.oppedahl.com/wp-content/uploads/2017/01/whatsapp-share.png" width="140" height="75" title="White flower" alt="Flower"></a>';
-    this.setState({buttoncode: but_link});
+    return link;
   }
 
   render() {
@@ -60,13 +61,9 @@ class App extends Component {
       <div className="App">
         <Header />
         <div className="bod">
-          <Input 
-            change = {this.messageChangeHandler} 
-          />
-          <Output 
-            click = {this.generateHandler}
-            urlDisp = {this.state.messageurl}
-            buttonDisp = {this.state.buttoncode}
+          <MessageArea 
+            change = {this.messageChangeHandler}
+            generateurl = {this.messageurlGenerator}
           />
           
         </div>

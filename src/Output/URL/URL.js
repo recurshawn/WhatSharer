@@ -15,7 +15,9 @@ const URL = (props) => {
         <Button 
             className="first-button"
             theme="primary"
-            onClick = {() => {copy(props.disp)}}
+            onClick = {() => {
+                copy(props.disp);}
+                }
         >Copy</Button>
 
         <a href={props.disp}>
