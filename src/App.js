@@ -37,7 +37,7 @@ import "./index.css";
 class App extends Component {
 
   state = {
-    message: "This should eventually change, if it doesn't ERROR", //Init value to aid in debugging
+    message: "Hey there, I am using WhatsAppr.com", //Init value if user doesn't type a message
     messageurl: "",
     buttoncode: "",
   }
