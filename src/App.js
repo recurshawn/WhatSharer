@@ -38,13 +38,18 @@ class App extends Component {
 
   state = {
     message: "Hey there, I am using WhatsAppr.com You should check it out!", //Init value if user doesn't type a message
-    messageurl: "",
+    messageurl: "https://api.whatsapp.com/send?text=Hey%20there%2C%20I%20am%20using%20WhatsAppr.com%20You%20should%20check%20it%20out!",
     buttoncode: "",
   }
 
   //updates the state of new message whenever a change is detected
   messageChangeHandler = (e) => {
     this.setState({message: e.target.value});
+    /*
+    var link = encodeURIComponent(this.state.message);
+    link = "https://api.whatsapp.com/send?text=" + link;
+    this.setState({messageurl: link}); */
+  
   }
 
   //Call this function when you want to use the latest message url
@@ -52,7 +57,7 @@ class App extends Component {
   messageurlGenerator = () => {
     var link = encodeURIComponent(this.state.message);
     link = "https://api.whatsapp.com/send?text=" + link;
-    this.setState({messageurl: link});
+    //this.setState({messageurl: link});
     return link;
   }
 
@@ -64,6 +69,7 @@ class App extends Component {
           <MessageArea 
             change = {this.messageChangeHandler}
             generateurl = {this.messageurlGenerator}
+            msgurl = {this.state.messageurl}
           />
           
         </div>
