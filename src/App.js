@@ -44,7 +44,7 @@ class App extends Component {
 
   //updates the state of new message whenever a change is detected
   messageChangeHandler = (e) => {
-    
+
     this.setState({message: e.target.value});
     /*
     var link = encodeURIComponent(this.state.message);
@@ -71,6 +71,7 @@ class App extends Component {
             change = {this.messageChangeHandler}
             generateurl = {this.messageurlGenerator}
             msgurl = {this.state.messageurl}
+            msg = {this.state.message}
           />
           
         </div>

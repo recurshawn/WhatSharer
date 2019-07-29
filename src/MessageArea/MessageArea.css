@@ -1,3 +1,7 @@
 .button:hover {
     fill: #128c7e;
 }
+
+.link-text {
+    background: white;
+}

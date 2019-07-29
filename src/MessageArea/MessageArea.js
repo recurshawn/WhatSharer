@@ -3,6 +3,7 @@ import React from 'react';
 import {FormTextarea} from 'shards-react';
 import copy from 'clipboard-copy';
 import "./MessageArea.css";
+
 const MessageArea = (props) => {
     return(
     <div>
@@ -10,7 +11,8 @@ const MessageArea = (props) => {
         <FormTextarea 
             rows="5"
             onChange={props.change}
-        />
+            value = {props.msg}
+        ></FormTextarea>
         <div className="Share">
             <a href= {props.generateurl()}>
             <svg  
@@ -32,7 +34,8 @@ const MessageArea = (props) => {
             <p>Share this message on WhatsApp right now!</p>
         </div>
 
-        <div className="Copy button">
+        <div className="Copy">
+            <p class="link-text">{props.generateurl()}</p>
             <svg onClick = { () => {
                     copy(props.generateurl())
                     }
