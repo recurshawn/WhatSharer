@@ -9,7 +9,7 @@ import "shards-ui/dist/css/shards.min.css";
 
 
 ///import {FormTextarea} from 'shards-react';
-///dfdffd
+
 /*  Component structure
 
     App
@@ -57,9 +57,14 @@ class App extends Component {
   //It updates the url state and returns the link too
   messageurlGenerator = () => {
     var link = encodeURIComponent(this.state.message);
-    link = "https://api.whatsapp.com/send?text=" + link;
-    //this.setState({messageurl: link});
+    link = "https://api.whatsapp.com/send?text=" + link
     return link;
+  }
+
+
+  bannercodeGenerator = () => {
+    var bannercode = '<a href="'+"https://api.whatsapp.com/send?text="+this.state.message+'"><img src="https://blog.oppedahl.com/wp-content/uploads/2017/01/whatsapp-share.png" width="140" height="75" title="Share on WhatsApp" alt="Share on WhatsApp"></a>';
+    return bannercode;
   }
 
   render() {
@@ -72,6 +77,7 @@ class App extends Component {
             generateurl = {this.messageurlGenerator}
             msgurl = {this.state.messageurl}
             msg = {this.state.message}
+            bannercode = {this.bannercodeGenerator}
           />
           
         </div>
