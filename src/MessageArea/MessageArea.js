@@ -9,7 +9,7 @@ const MessageArea = (props) => {
     <div>
         
         <FormTextarea 
-            rows="5"
+            rows="10"
             onChange={props.change}
             //value = {props.msg}
         ></FormTextarea>
