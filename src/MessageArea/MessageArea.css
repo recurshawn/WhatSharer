@@ -5,3 +5,7 @@
 .link-text {
     background: white;
 }
+
+svg {
+    margin-top: 5px;
+}

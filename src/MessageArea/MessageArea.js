@@ -35,6 +35,7 @@ const MessageArea = (props) => {
 
         <div className="Copy">
             <FormInput value={props.generateurl()}/>
+
             <svg onClick = { () => {
                     copy(props.generateurl())
                     }
