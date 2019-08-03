@@ -1,0 +1,16 @@
+.button:hover {
+    fill: #128c7e;
+}
+
+.link-text {
+    background: white;
+}
+
+svg {
+    margin-top: 5px;
+}
+.boxes {
+    max-width: 900px;
+    padding: 10px 1%;
+    margin: auto;
+}

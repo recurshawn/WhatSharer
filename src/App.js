@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import Input from './Input/Input.js';
+import MessageArea from './MessageArea/MessageArea.js';
 import Output from './Output/Output.js';
 import Header from './Header/Header.js';
 import Footer from './Footer/Footer.js';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
-import "./index.css";
+
 
 ///import {FormTextarea} from 'shards-react';
-///dfdffd
+
 /*  Component structure
 
     App
@@ -37,22 +37,34 @@ import "./index.css";
 class App extends Component {
 
   state = {
-    message: "Hey there, I am using WhatsAppr.com", //Init value if user doesn't type a message
-    messageurl: "",
+    message: "Hey there, I am using WhatsAppr.com You should check it out!", //Init value if user doesn't type a message
+    messageurl: "https://api.whatsapp.com/send?text=Hey%20there%2C%20I%20am%20using%20WhatsAppr.com%20You%20should%20check%20it%20out!",
     buttoncode: "",
   }
 
+  //updates the state of new message whenever a change is detected
   messageChangeHandler = (e) => {
-    this.setState({message: e.target.value});
-  }
 
-  
-  generateHandler = () => {
+    this.setState({message: e.target.value});
+    /*
     var link = encodeURIComponent(this.state.message);
     link = "https://api.whatsapp.com/send?text=" + link;
-    this.setState({messageurl: link});
-    var but_link = '<a href="'+link+'"><img src="https://blog.oppedahl.com/wp-content/uploads/2017/01/whatsapp-share.png" width="140" height="75" title="White flower" alt="Flower"></a>';
-    this.setState({buttoncode: but_link});
+    this.setState({messageurl: link}); */
+  
+  }
+
+  //Call this function when you want to use the latest message url
+  //It updates the url state and returns the link too
+  messageurlGenerator = () => {
+    var link = encodeURIComponent(this.state.message);
+    link = "https://api.whatsapp.com/send?text=" + link
+    return link;
+  }
+
+
+  bannercodeGenerator = () => {
+    var bannercode = '<a href="'+"https://api.whatsapp.com/send?text="+this.state.message+'"><img src="https://blog.oppedahl.com/wp-content/uploads/2017/01/whatsapp-share.png" width="140" height="75" title="Share on WhatsApp" alt="Share on WhatsApp"></a>';
+    return bannercode;
   }
 
   render() {
@@ -60,13 +72,12 @@ class App extends Component {
       <div className="App">
         <Header />
         <div className="bod">
-          <Input 
-            change = {this.messageChangeHandler} 
-          />
-          <Output 
-            click = {this.generateHandler}
-            urlDisp = {this.state.messageurl}
-            buttonDisp = {this.state.buttoncode}
+          <MessageArea 
+            change = {this.messageChangeHandler}
+            generateurl = {this.messageurlGenerator}
+            msgurl = {this.state.messageurl}
+            msg = {this.state.message}
+            bannercode = {this.bannercodeGenerator}
           />
           
         </div>
