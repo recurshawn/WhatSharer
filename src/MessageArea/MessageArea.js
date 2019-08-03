@@ -6,7 +6,7 @@ import "./MessageArea.css";
 
 const MessageArea = (props) => {
     return(
-    <div>
+    <div class="boxes">
         
         <FormTextarea 
             rows="10"
@@ -16,7 +16,7 @@ const MessageArea = (props) => {
         <div className="Share">
             <a href= {props.generateurl()}>
             <svg  
-                width = "30px" 
+                width = "50px" 
                 xmlns="http://www.w3.org/2000/svg" 
                 aria-hidden="true" 
                 focusable="false" 

@@ -9,3 +9,8 @@
 svg {
     margin-top: 5px;
 }
+.boxes {
+    max-width: 900px;
+    padding: 10px 1%;
+    margin: auto;
+}
