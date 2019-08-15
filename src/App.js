@@ -1,10 +1,11 @@
 import React from 'react';
 import Header from './Header/Header.js';
 import MessageArea from './MessageArea/MessageArea.js';
-
+import URLArea from './URLArea/URLArea.js';
+import Info from './Info/Info.js';
 import Footer from './Footer/Footer.js'
 import './App.css';
-import URLArea from './URLArea/URLArea.js';
+
 
 class App extends React.Component{
 
@@ -47,10 +48,7 @@ class App extends React.Component{
               <URLArea
                 url = {this.messageurlGenerator}
               />
-            
-
-          
-          
+              <Info/>
         </div>
         <Footer/>
       </div>

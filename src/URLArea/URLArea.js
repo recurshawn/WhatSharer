@@ -29,7 +29,9 @@ class URLArea extends React.Component {
           
         <div className="URLArea">
             <h3>Message URL</h3>
+            
             <textarea
+              //disabled = "disabled"
               ref={(textarea) => this.textarea = textarea}
               value={this.props.url()}
               rows= "1"

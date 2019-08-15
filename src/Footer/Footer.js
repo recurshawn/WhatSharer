@@ -1,11 +1,13 @@
 import React from 'react';
 //import Logo from './WhatsAppr.png';
-import '../Header/Header.css';
+import './Footer.css';
 
 const Footer = () => {
     return(
-    <div className="Header">
-        <p>Made with luv by Shawn Pereira</p>
+    <div className="Footer">
+        <p>Made with ❤️ by Shawn Pereira <a href="https://twitter.com/Incept_shawn">@Incept_shawn</a></p>
+        
+        <p>🚀 Support this project!</p>
     </div>
     );
 }
