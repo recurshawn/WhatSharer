@@ -26,7 +26,14 @@ class URLArea extends React.Component {
   
     render() {
       return (
-        <div>
+          
+        <div className="URLArea">
+            <h3>Message URL</h3>
+            <textarea
+              ref={(textarea) => this.textarea = textarea}
+              value={this.props.url()}
+              rows= "1"
+            />
           {
            /* Logical shortcut for only displaying the 
               button if the copy command exists */
@@ -38,13 +45,6 @@ class URLArea extends React.Component {
                 {this.state.copySuccess}
             </div>
           }
-          <form>
-            <textarea
-              ref={(textarea) => this.textarea = textarea}
-              value={this.props.url()}
-              rows= "1"
-            />
-          </form>
         </div>
       );
     }

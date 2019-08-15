@@ -38,31 +38,23 @@ class App extends React.Component{
       <div className="App">
         <Header/>
         <div className="container">
-          <div className="row">
-            <div className="col pink">
-              Hey
-            </div>
-            <div className="col-12">
+         
               <MessageArea
                 type = {this.messageChangeHandler}
                 url = {this.messageurlGenerator}
               />
-              </div>
-              <div className="col pink">
-                Hey there1
-              </div>
+
+              <URLArea
+                url = {this.messageurlGenerator}
+              />
             
-          </div>
+
           
-
-          <URLArea
-            url = {this.messageurlGenerator}
-          />
-
           
         </div>
         <Footer/>
       </div>
+
     );
   }
   
