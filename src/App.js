@@ -2,9 +2,12 @@ import React from 'react';
 import Header from './Header/Header.js';
 import MessageArea from './MessageArea/MessageArea.js';
 import URLArea from './URLArea/URLArea.js';
+import BannerArea from './BannerArea/BannerArea.js';
 import Info from './Info/Info.js';
-import Footer from './Footer/Footer.js'
+import Footer from './Footer/Footer.js';
+
 import './App.css';
+
 
 
 class App extends React.Component{
@@ -30,7 +33,7 @@ class App extends React.Component{
 
 
   bannercodeGenerator = () => {
-    var bannercode = '<a href="'+"https://api.whatsapp.com/send?text="+this.state.message+'"><img src="https://blog.oppedahl.com/wp-content/uploads/2017/01/whatsapp-share.png" width="140" height="75" title="Share on WhatsApp" alt="Share on WhatsApp"></a>';
+    var bannercode = '<a href="https://api.whatsapp.com/send?text=' + this.state.message+'"><img src="PUT URL HERE" style="display: block; margin-left: auto; margin-right: auto; max-width: 200px; width: 50%;" title="Share on WhatsApp" alt="Share on WhatsApp"></a>';
     return bannercode;
   }
 
@@ -46,6 +49,11 @@ class App extends React.Component{
               />
 
               <URLArea
+                url = {this.messageurlGenerator}
+              />
+              
+              <BannerArea
+                bannercode = {this.bannercodeGenerator}
                 url = {this.messageurlGenerator}
               />
               <Info/>

@@ -106,12 +106,7 @@ textarea {
     -webkit-appearance: none
 }
 
-textarea {
-    margin-right: 0;
-    width: 90%;
-    box-sizing: border-box;
-    resize: vertical
-}
+
 
 button,
 input[type=button],
@@ -128,56 +123,3 @@ input[type=submit]:hover {
 
 button:focus,
 input:focus,
-select:focus,
-textarea:focus {
-    box-shadow: 0 0 0 2px #0096bfab
-}
-
-button:active,
-input[type=button]:active,
-input[type=checkbox]:active,
-input[type=submit]:active {
-    transform: translateY(2px)
-}
-
-input:disabled {
-    cursor: not-allowed;
-    opacity: .5
-}
-
-body.light {
-    color: #363636;
-    background: #fff
-}
-
-body.light a {
-    color: #0076d1
-}
-
-body.light h1,
-body.light h2,
-body.light h3,
-body.light h4,
-body.light h5,
-body.light h6,
-body.light strong {
-    color: #000
-}
-
-body.light button,
-body.light input,
-body.light select,
-body.light textarea {
-    color: #000;
-    background: #efefef
-}
-
-body.light button:hover,
-body.light input[type=button]:hover,
-body.light input[type=submit]:hover {
-    background: #ddd
-}
-
-::placeholder {
-    color: #949494
-}

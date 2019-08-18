@@ -9,6 +9,7 @@ const ShareIcon = (props) => {
                 <div className="col-1">
                     <a href= {props.url()}>
                         <svg
+                            float="rightalign"
                             width = "50px" 
                             xmlns="http://www.w3.org/2000/svg" 
                             aria-hidden="true" 
@@ -23,8 +24,7 @@ const ShareIcon = (props) => {
                             />
                         </svg>
                     </a>
-                    {//<p className="icon text" align="center">Send to<br></br>WhatsApp</p>
-                    }
+                   
                 </div>
                 <div className="col"></div>
 

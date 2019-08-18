@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => {
     return(
     <div className="Header">
-        <img src='../WhatsAppr Logo.png'/>
+        <img src='../WhatsAppr Logo.png' alt="WhatsAppr Logo"/>
         <h1>WhatsAppr</h1>
     </div>
     );

@@ -1,6 +1,6 @@
 import React from 'react';
 import ShareIcon from '../ShareIcon/ShareIcon.js';
-import '../App.css';
+
 const MessageArea = (props) => {
     return(
     <div className="MessageArea">
@@ -8,7 +8,7 @@ const MessageArea = (props) => {
         <textarea
             placeholder = "Type the message you want to make shareable here..."
             onChange = {props.type}
-            rows = "10"
+            rows = "6"
         />
         
         <ShareIcon
