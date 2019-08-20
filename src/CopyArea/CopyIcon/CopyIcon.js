@@ -3,12 +3,10 @@ import React from 'react';
 const CopyIcon = (props) => {
 
     return (
-      <div className="Copy">
-         <div className="row">
-                <div className="col-11"></div>
-                <div className="col-1">
+      <div className="Copy-icon">
+
                   <svg
-                    className="icon"
+                    className="copy icon"
                     onClick = {props.copy} 
                     xmlns="http://www.w3.org/2000/svg" 
                     aria-hidden="true" 
@@ -23,9 +21,9 @@ const CopyIcon = (props) => {
                   </svg>
                   <p><span className={props.pStyle}>{props.txt}</span></p>
                   
-                </div>
-                <div className="col"></div>
-          </div>
+              
+  
+          
           
       </div>
     );

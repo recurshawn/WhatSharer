@@ -3,12 +3,29 @@
   background-color: greenyellow;
 }
 
+
+.logo
+{
+  margin-top: 0;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+}
+
+h1
+{
+  display: inline-block;
+  margin: 20px auto;
+}
+
 .messageBubble
 {
   border-radius: 10px;
   background-color: rgb(227, 253, 204);
   padding: 3px 9px;
-  margin: 10px auto;
+  margin: 15px auto;
 }
 
 .banner
@@ -21,7 +38,7 @@
 }
 .icon:hover{
   fill: #118174;
-  color: #118174;
+  color: #089787;
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
