@@ -3,7 +3,10 @@
   background-color: greenyellow;
 }
 
-
+.logotext
+{
+  text-align: center;
+}
 .logo
 {
   margin-top: 0;
@@ -24,7 +27,8 @@ h1
 {
   border-radius: 10px;
   background-color: rgb(227, 253, 204);
-  padding: 3px 9px;
+  padding: 3px 15px;
+  padding-top: 10px;
   margin: 15px auto;
 }
 
