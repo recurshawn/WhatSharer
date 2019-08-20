@@ -30,6 +30,7 @@ class CopyArea extends React.Component {
               ref={(textarea) => this.textarea = textarea}
               value={this.props.contents()}
               rows= "2"
+              color="green"
             />
           </div>
           {

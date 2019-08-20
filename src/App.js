@@ -47,15 +47,16 @@ class App extends React.Component{
                 type = {this.messageChangeHandler}
                 url = {this.messageurlGenerator}
               />
-
+              <br/>
               <URLArea
                 url = {this.messageurlGenerator}
               />
-              
+              <br/>
               <BannerArea
                 bannercode = {this.bannercodeGenerator}
                 url = {this.messageurlGenerator}
               />
+              <br/>
               <Info/>
         </div>
         <Footer/>
