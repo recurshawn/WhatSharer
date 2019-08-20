@@ -20,6 +20,7 @@ const BannerArea = (props) => {
       <CopyArea 
         contents = {props.bannercode}
       />
+      <br/>
       <p>This is what the banner will look like:</p>
 
       {<a href={props.url()}><img class ="banner" src={Banner} alt="Share on WhatsApp. Made with WhatsAppr.com"/></a>}
