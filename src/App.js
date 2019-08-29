@@ -33,7 +33,7 @@ class App extends React.Component{
 
 
   bannercodeGenerator = () => {
-    var bannercode = '<a href="https://api.whatsapp.com/send?text=' + this.state.message+'"><img src="PUT URL HERE" style="display: block; margin-left: auto; margin-right: auto; max-width: 200px; width: 50%;" title="Share on WhatsApp" alt="Share on WhatsApp"></a>';
+    var bannercode = '<a href="https://api.whatsapp.com/send?text=' + encodeURIComponent(this.state.message)+'"><img src="PUT URL HERE" style="display: block; margin-left: auto; margin-right: auto; max-width: 200px; width: 50%;" title="Share on WhatsApp" alt="Share on WhatsApp"></a>';
     return bannercode;
   }
 
