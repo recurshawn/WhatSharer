@@ -10,10 +10,12 @@ const MessageArea = (props) => {
             onChange = {props.type}
             rows = "6"
         />
-        
-        <ShareIcon
-            url = {props.url}
+        <a href= {props.url()}>
+            <ShareIcon
+            
         />
+        </a>
+        
     </div>
     );
 }
