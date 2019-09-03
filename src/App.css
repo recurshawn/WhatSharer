@@ -2,7 +2,16 @@
 {
   background-color: greenyellow;
 }
-
+input{
+  width: 90%;
+}
+button
+{
+  background-color: #075e54; /* Green */
+  border:  solid #075e54;
+  color: white;
+  width: 10%;
+}
 .logotext
 {
   text-align: center;

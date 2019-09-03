@@ -23,27 +23,25 @@ class CopyArea extends React.Component {
     render() {
       return (
           
-        <div className="row">
-          <div className="col-9">
-            <textarea
+        <div>
+            <input
               //disabled = "disabled"
               ref={(textarea) => this.textarea = textarea}
               value={this.props.contents()}
-              rows= "2"
               color="green"
             />
-          </div>
+
           {
            /* Logical shortcut for only displaying the 
               button if the copy command exists */
            document.queryCommandSupported('copy') &&
-           <div className="col">     
-           <CopyIcon
+             <button onClick={this.copyToClipboard}> 📋</button>
+           /*<CopyIcon
             copy={this.copyToClipboard}
             txt = {this.state.copySuccess}
             pStyle = {this.state.pStyle}
            />
-          </div>          
+          */          
                     
                 
         

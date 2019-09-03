@@ -51,7 +51,7 @@ const Info = () => {
                 <h3>How can I support WhatsAppr?</h3>
                 <p>By using WhatsAppr, you are already supporting it! Additionally, you can also support us by:
                     <ul>
-                        <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Incept_shawn">Telling us you like it.</a> Emotional support matters too!🥰</li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Incept_shawn">Telling us you like it.</a> Emotional support matters too!🙏</li>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://forms.gle/62zX2Rf97wZJ5WGV9">Giving us feedback and suggestions</a></li>
                         <li>Contributing to the code base directly, [REMINDER: LINK TO REPO] if you can. WhatsAppr is an Open Source project.</li>
                         <li>Monetary donations on GitHub</li>
