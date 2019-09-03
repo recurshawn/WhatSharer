@@ -21,7 +21,7 @@ const Info = () => {
                         <li>You have want your social media audience to share a social cause message with their WhatsApp contacts. Sharing a WhatsApp message URL will allow you to do this!</li>
                         <li>Need to add more use cases.</li>
                     </ul>
-                    There are many more such use cases. You are restricted by your own ingenuity! 🧠
+                    There are many more such use cases. You are restricted by your own ingenuity! 🧠🎨
                 </p>
             </div>
             
