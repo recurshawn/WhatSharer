@@ -6,7 +6,7 @@ class CopyArea extends React.Component {
     constructor(props) {
       super(props);
   
-      this.state = { copySuccess: 'Copy to Clipboard',
+      this.state = { copySuccess: '📋',
                      pStyle: '' }
     }
   
@@ -14,8 +14,8 @@ class CopyArea extends React.Component {
       this.textarea.select();
       document.execCommand('copy');
       e.target.focus();
-      this.setState({ copySuccess: 'Copied to Clipboard', pStyle: 'highlight' });
-      setTimeout(() => this.setState({copySuccess: 'Copy to Clipboard', pStyle: ''}), 2000);
+      this.setState({ copySuccess: '👍', pStyle: 'highlight' });
+      setTimeout(() => this.setState({copySuccess: '📋', pStyle: ''}), 2000);
 
     };
 
@@ -35,7 +35,7 @@ class CopyArea extends React.Component {
            /* Logical shortcut for only displaying the 
               button if the copy command exists */
            document.queryCommandSupported('copy') &&
-             <button onClick={this.copyToClipboard}> 📋</button>
+             <button onClick={this.copyToClipboard}>{this.state.copySuccess}</button>
            /*<CopyIcon
             copy={this.copyToClipboard}
             txt = {this.state.copySuccess}
