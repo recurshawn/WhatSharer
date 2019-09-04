@@ -51,19 +51,28 @@ class App extends React.Component{
         <Header/>
         <div className="container">
               <p class="help">Need help? <a href="#FAQs">❓</a></p>
-              <MessageArea
-                type = {this.messageChangeHandler}
-                url = {this.messageurlGenerator}
-              />
+              <div className = "messageBubble green">
+                <MessageArea
+                  type = {this.messageChangeHandler}
+                  url = {this.messageurlGenerator}
+                />
+              </div>
+              
               <br/>
-              <URLArea
-                url = {this.messageurlGenerator}
-              />
+              <div className = "messageBubble green">
+                <URLArea
+                  url = {this.messageurlGenerator}
+                />
+              </div>
+              
               <br/>
-              <BannerArea
-                bannercode = {this.bannercodeGenerator}
-                url = {this.messageurlGenerator}
-              />
+              <div className = "messageBubble green">
+                <BannerArea
+                  bannercode = {this.bannercodeGenerator}
+                  url = {this.messageurlGenerator}
+                />
+              </div>
+              
               <br/>
               <Info/>
         </div>
