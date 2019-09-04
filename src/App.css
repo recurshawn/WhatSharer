@@ -2,16 +2,17 @@
 {
   background-color: greenyellow;
 }
-.help
+.red
 {
-  background-color: #25D366;
+  text-align: center;
+  background-color: #075e54;
 }
 input{
   width: 90%;
 }
 button
 {
-  background-color: #075e54; /* Green */
+  background-color: #075e54; 
   border:  solid #075e54;
   color: white;
   width: 10%;
@@ -41,7 +42,7 @@ h1
   border-radius: 10px;
   padding: 10px;
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   margin: 15px auto;
 }
 .green
