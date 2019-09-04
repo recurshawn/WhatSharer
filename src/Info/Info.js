@@ -5,7 +5,7 @@ import React from 'react';
 const Info = () => {
     return(
         <div>
-            <h2>🤔 FAQs</h2>
+            <h2 id="FAQs">🤔 FAQs</h2>
             <div className="messageBubble">
                 <h3>What is a WhatsApp Message URL?</h3>
                 <p>A WhatsApp Message URL is a URL (link) that when visited enables the visitor to forward a pre-typed message to their WhatsApp contacts.
@@ -21,7 +21,7 @@ const Info = () => {
                         <li>You have want your social media audience to share a social cause message with their WhatsApp contacts. Sharing a WhatsApp message URL will allow you to do this!</li>
                         <li>Need to add more use cases.</li>
                     </ul>
-                    There are many more such use cases. You are restricted by your own ingenuity! 🧠🎨
+                    There are many more such use cases. You are restricted by your own ingenuity! 🎨
                 </p>
             </div>
             

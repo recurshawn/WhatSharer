@@ -20,7 +20,15 @@ class App extends React.Component{
 
   //Update the state's message value when user types something
   messageChangeHandler = (e) => {
-    this.setState({message: e.target.value});
+    if(e.target.value !== "")
+    {
+      this.setState({message: e.target.value});
+    }
+    else
+    {
+      this.setState({message: "Hey there, I am using WhatsAppr.com \n You should check it out!"});
+    }
+      
   }
 
   //Call this function when you want to use the latest message url
@@ -33,7 +41,7 @@ class App extends React.Component{
 
 
   bannercodeGenerator = () => {
-    var bannercode = '<a href="https://api.whatsapp.com/send?text=' + encodeURIComponent(this.state.message)+'"><img src="PUT URL HERE" style="display: block; margin-left: auto; margin-right: auto; max-width: 200px; width: 50%;" title="Share on WhatsApp" alt="Share on WhatsApp"></a>';
+    var bannercode = '<a href="https://api.whatsapp.com/send?text=' + encodeURIComponent(this.state.message)+'"><img src="https://res.cloudinary.com/dxafjfxod/image/upload/v1567597636/WhatsAppr/banner_jhebut.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 200px; width: 50%;" title="Share on WhatsApp" alt="Share on WhatsApp"></a>';
     return bannercode;
   }
 
@@ -42,7 +50,7 @@ class App extends React.Component{
       <div className="App">
         <Header/>
         <div className="container">
-         
+              <p class="help">Need help? <a href="#FAQs">❓</a></p>
               <MessageArea
                 type = {this.messageChangeHandler}
                 url = {this.messageurlGenerator}
