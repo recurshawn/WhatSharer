@@ -12,4 +12,5 @@ WhatsAppr is an open-source PWA using the BLANK license hosted at https://whatsa
 * Write more use cases
 * Donations
 * Proof read FAQs
+* Work on repo Readme file
 * Prepare social media messages to share WhatsAppr's launch
