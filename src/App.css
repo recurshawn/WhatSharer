@@ -7,6 +7,12 @@
   text-align: center;
   background-color: #075e54;
 }
+
+.red:hover, button:hover
+{
+  background-color: #118174;
+}
+
 input{
   width: 90%;
 }
