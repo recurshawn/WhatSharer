@@ -15,7 +15,7 @@ const BannerArea = (props) => {
     />
     </div>
     */ }
-      <h3>Embeddable Banner 🖼️</h3>
+      <h3>Embeddable Banner</h3>
       <p>Copy the code below to embed a Share on WhatsApp banner on a webpage. </p>
       <CopyArea 
         contents = {props.bannercode}
