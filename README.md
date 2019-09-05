@@ -8,7 +8,8 @@ WhatsAppr is an open-source PWA using the BLANK license hosted at https://whatsa
 * Logo and Icon
 * Repository banner
 * License, add to site
-* Emojis - keep or remove?
+* ~~Emojis - keep or remove? ~~
+ Decided to remove
 * Write more use cases
 * Donations
 * Proof read FAQs
