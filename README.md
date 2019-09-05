@@ -7,7 +7,7 @@ WhatsAppr is an open-source PWA using the BLANK license hosted at https://whatsa
 ## To do before launch:
 * Logo and Icon
 * Repository banner
-* License, add to site
+* License - add to site, repo and readme
 *  ~~Emojis - keep or remove?~~
 * Write more use cases
 * Donations
