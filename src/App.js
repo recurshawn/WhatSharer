@@ -51,7 +51,7 @@ class App extends React.Component{
         <Header/>
         <div className="container">
           
-              <a href="#FAQs"><p className="messageBubble red">❓ How do I use this?</p></a>
+              <a href="#FAQs"><p className="messageBubble red">How do I use this?</p></a>
               <div className = "messageBubble green">
                 <MessageArea
                   type = {this.messageChangeHandler}
