@@ -5,11 +5,7 @@ WhatsAppr is a tool to make shareable WhatsApp messages, generate WhatsApp messa
 WhatsAppr is an open-source PWA using the BLANK license hosted at https://whatsappr.com/
 
 ## To do before launch:
-* Logo and Icon
-* Repository banner
 * License - add to site, repo and readme
-*  ~~Emojis - keep or remove?~~
-* Write more use cases
 * Donations
 * Proof read FAQs
 * Work on repo Readme file
