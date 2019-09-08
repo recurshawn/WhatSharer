@@ -4,9 +4,7 @@ WhatsAppr is a tool to make shareable WhatsApp messages, generate WhatsApp messa
 
 WhatsAppr is an open-source PWA using the BLANK license hosted at https://whatsappr.com/
 
-## To do before launch:
+## To do:
 * License - add to site, repo and readme
-* Donations
-* Proof read FAQs
 * Work on repo Readme file
-* Prepare social media messages to share WhatsAppr's launch
+
