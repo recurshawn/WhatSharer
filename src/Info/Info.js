@@ -61,7 +61,7 @@ const Info = () => {
                         <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Incept_shawn">Telling us you like it.</a> Emotional support matters too!🙏</li>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://forms.gle/62zX2Rf97wZJ5WGV9">Giving us feedback and suggestions</a></li>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/recurshawn/WhatsAppr">Contributing to the code base directly</a>, if you can. WhatsAppr is an Open Source project.</li>
-                        <li>Monetary donations on GitHub</li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://ko-fi.com/recurshawn">Monetary donations!</a></li>
                     </ul>
                 </p>
             </div>
