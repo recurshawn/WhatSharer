@@ -10,9 +10,8 @@ const MessageArea = (props) => {
             onChange = {props.type}
             rows = "6"
         />
-        <a href= {props.url()}>
+        <a href= {props.url()} aria-label="Send your message on WhatsApp to multiple people">
             <ShareIcon
-            
         />
         </a>
         
