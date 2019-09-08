@@ -18,10 +18,10 @@ const Info = () => {
                     <br/>Some specific use cases would be:
                     <ul>
                         <li>You have an e-commerce/online store and want your customers to tell their friends about it. You can generate a link on WhatsAppr for your message and use that however you want on your site. Alternatively, you could use our default banner.</li>
-                        <li>You have want your social media audience to share a social cause message with their WhatsApp contacts. Sharing a WhatsApp message URL will allow you to do this!</li>
-                        <li>Need to add more use cases.</li>
+                        <li>You want your social media audience to share a pre-typed message with their WhatsApp contacts. Sharing a WhatsApp message URL will allow them to just click the link and send the message directly.</li>
+                        <li>If you want your friends on WhatsApp to forward a message on WhatsApp, you could just give them the URL and they can click it for single click forward vs selecting the message and clicking forward. You also avoid those annoying "Forwarded" labels that way!</li>
                     </ul>
-                    There are many more such use cases. You are restricted by your own ingenuity! 🎨
+                    This is just scratching the surface of possibility! You are restricted by your own ingenuity! 🎨
                 </p>
             </div>
             
@@ -39,7 +39,14 @@ const Info = () => {
                 <p> Need reasons to use WhatsAppr? <a href="#where">Check the question above! </a>
                 </p>
             </div>
-            
+
+            <div className="messageBubble white">
+                <h3>Why/How should I do bulk messaging with WhatsAppr?</h3>
+                <p>Sending a single message to multiple people is very easy on WhatsAppr. Just type your message in, click the Send button below it and then select the contacts/groups to send the message to. 
+                <br/>You might also prefer this because it is easier to type in WhatsAppr's message box than the default WhatsApp text box.
+                </p>
+            </div>
+
             <div className="messageBubble white">
                 <h3>Have questions, feedback or something to say?</h3>
                 <p>Use this form: <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/62zX2Rf97wZJ5WGV9">https://forms.gle/62zX2Rf97wZJ5WGV9</a>
@@ -49,7 +56,7 @@ const Info = () => {
 
             <div className="messageBubble white">
                 <h3>How can I support WhatsAppr?</h3>
-                <p>By using WhatsAppr, you are already supporting it! Additionally, you can also support us by:
+                <p>Thank you for asking that! By using WhatsAppr, you are already supporting it! Additionally, you can also support us by:
                     <ul>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Incept_shawn">Telling us you like it.</a> Emotional support matters too!🙏</li>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://forms.gle/62zX2Rf97wZJ5WGV9">Giving us feedback and suggestions</a></li>
