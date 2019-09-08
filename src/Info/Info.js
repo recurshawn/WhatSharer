@@ -19,7 +19,7 @@ const Info = () => {
                     <ul>
                         <li>You have an e-commerce/online store and want your customers to tell their friends about it. You can generate a link on WhatsAppr for your message and use that however you want on your site. Alternatively, you could use our default banner.</li>
                         <li>You want your social media audience to share a pre-typed message with their WhatsApp contacts. Sharing a WhatsApp message URL will allow them to just click the link and send the message directly.</li>
-                        <li>If you want your friends on WhatsApp to forward a message on WhatsApp, you could just give them the URL and they can click it for single click forward vs selecting the message and clicking forward. You also avoid those annoying "Forwarded" labels that way!</li>
+                        <li>If you want your friends on WhatsApp to forward a message on WhatsApp, you could just give them the URL and they can click it for single click forward v/s selecting the message and clicking forward. You also avoid those annoying "Forwarded" labels that way!</li>
                     </ul>
                     This is just scratching the surface of possibility! You are restricted by your own ingenuity! 🎨
                 </p>
@@ -27,7 +27,7 @@ const Info = () => {
             
             <div className="messageBubble white">
                 <h3>What is WhatsAppr? How can I use WhatsAppr? Why would I want to use WhatsAppr?</h3>
-                <p>WhatsAppr is a tool to make WhatsApp messaging easier. You can use it to send the same message to multiple people very quickly very easily (bulk messaging) or to generate those insanely useful WhatsApp message URLs!
+                <p>WhatsAppr is a tool to make WhatsApp messaging easier. You can use it to send the same message to multiple people very quickly, very easily (bulk messaging) or to generate those insanely useful WhatsApp message URLs!
                 </p>
 
                 <p> WhatsAppr is (hopefully) very simple to use! 😋
