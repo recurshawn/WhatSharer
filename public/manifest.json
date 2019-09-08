@@ -3,6 +3,12 @@
   "name": "WhatsAppr - Shareable WhatsApp message URLs",
   "icons": [
     {
+      "src": "icon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+
+    {
       "src": "WhatsAppr_Icon.png",
       "sizes": "192x192",
       "type": "image/png"
