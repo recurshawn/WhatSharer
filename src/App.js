@@ -5,9 +5,7 @@ import URLArea from './URLArea/URLArea.js';
 import BannerArea from './BannerArea/BannerArea.js';
 import Info from './Info/Info.js';
 import Footer from './Footer/Footer.js';
-
 import './App.css';
-
 
 
 class App extends React.Component{
