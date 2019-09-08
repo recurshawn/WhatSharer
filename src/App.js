@@ -48,8 +48,14 @@ class App extends React.Component{
       <div className="App">
         <Header/>
         <div className="container">
-          
+
               <a href="#FAQs"><p className="messageBubble red">How do I use this?</p></a>
+              <div className = "messageBubble white">
+                <p>Hey everyone! Thank you a lot for the love you've shown WhatsAppr! We're doing really well on Product Hunt! Do leave feedback, suggestions or anything if you have to say so that we can improve the project further! Have a great day!
+                  <br/> ~ Shawn Pereira
+                </p>
+                <a href="https://www.producthunt.com/posts/whatsappr?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-whatsappr" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=167171&theme=light&period=daily" alt="WhatsAppr - Generate WhatsApp message URLs & send bulk messages easily | Product Hunt Embed" width="250px" height="54px" /></a>
+              </div>
               <div className = "messageBubble green">
                 <MessageArea
                   type = {this.messageChangeHandler}
