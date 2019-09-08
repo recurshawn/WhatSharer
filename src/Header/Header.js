@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../whatsappr logo.png';
+import Logo from '../whatsappr logo.svg';
 import './Header.css';
 const Header = () => {
     return(
