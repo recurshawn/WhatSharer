@@ -6,20 +6,25 @@
 
 WhatsAppr is a tool to make shareable WhatsApp messages, generate WhatsApp message URLs and send bulk WhatsApp messages easily.
 
-> WhatsAppr is an open-source PWA using the BLANK license hosted at https://whatsappr.com/
+> WhatsAppr is an open-source PWA using the GNU-GPLv3 license hosted at https://whatsappr.com/
 
 ## How To Use: ##
 - Just type your message in, click the Send button below it and then select the contacts/groups to send the message to.
 
-## Getting Started: ##
-- Run `npm install` to install dependancies.
+## Contributing ##
+### Technology Stack: ###
+- HTML, CSS, Bootstrap
+- [React.js](https://reactjs.org/)
+
+
+- Clone the repository locally. 
+- Navigate to the directory. `cd whatsappr`.
+- Run `npm install` to install dependencies.
 - Run `npm run start` to start the development server.
 - Run `npm run test` to test.
 - Run `npm run build` to create a optimized production build.
 
-## Technology Stack: ##
-- HTML, CSS, JavaScript
-- [React.js](https://reactjs.org/)
+
 
 ## Contributing ##
 - [Contribute to the code](https://github.com/recurshawn/WhatsAppr)
@@ -28,5 +33,4 @@ WhatsAppr is a tool to make shareable WhatsApp messages, generate WhatsApp messa
 - [Emotional Support](https://twitter.com/Incept_shawn)
 
 ## To do: ##
-* License - add to site, repo and readme
 * Work on repo Readme file
