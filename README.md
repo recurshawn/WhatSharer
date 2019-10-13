@@ -1,7 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/31dfe589-8aeb-4a06-9684-1723244129ba/deploy-status)](https://app.netlify.com/sites/whatsappr/deploys)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-![Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=online&up_message=online&url=https%3A%2F%2Fwhatsappr.com%2F)
+[![Website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=online&up_message=online&url=https%3A%2F%2Fwhatsappr.com%2F)](https://whatsappr.com)
 [![Follow me on Twitter](https://img.shields.io/twitter/follow/incept_shawn?style=social)](https://twitter.com/incept_shawn)
 
 # WhatsAppr #
