@@ -1,4 +1,4 @@
-# WhatsAppr
+# [WhatsAppr](https://whatsappr.com)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/31dfe589-8aeb-4a06-9684-1723244129ba/deploy-status)](https://app.netlify.com/sites/whatsappr/deploys)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
