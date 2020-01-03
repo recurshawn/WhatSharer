@@ -23,8 +23,9 @@ WhatsAppr is a tool to make shareable WhatsApp messages, generate WhatsApp messa
 - [Emotional Support](https://twitter.com/Incept_shawn)
 
 ### Technology Stack: ###
-- HTML, CSS, Bootstrap
-- [React.js](https://reactjs.org/)
+- HTML
+- CSS, Bootstrap
+- JavaScript, [React.js](https://reactjs.org/)
 
 ### Working on WhatsAppr locally ###
 - Clone the repository locally. 
