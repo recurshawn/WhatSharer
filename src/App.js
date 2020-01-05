@@ -80,6 +80,9 @@ class App extends React.Component{
                   type = {this.messageChangeHandler}
                   url = {this.messageurlGenerator}
                 />
+                <br/>
+                <h3>Send message to number</h3>
+                <p>You can send the message typed above directly to a particular WhatsApp number. Enter the number below and hit the Send button!</p>
                 <NumberArea 
                   type = {this.numberChangeHandler}
                   url = {this.numberurlGenerator}

@@ -98,7 +98,7 @@ a {
 a:hover {
     text-decoration: underline
 }
-textarea {
+textarea, .NumberBox {
   font-family: inherit;
   font-size: inherit;
   /* margin-right: 6px;
@@ -110,7 +110,10 @@ textarea {
   outline: 0;
   background: #fff;
 }
-
+.NumberBox{
+  margin: 0 auto;
+  width: 500px;
+}
 textarea {
   margin: 0 auto;
   width: 100%;
