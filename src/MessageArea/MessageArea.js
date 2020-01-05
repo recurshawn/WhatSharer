@@ -10,7 +10,7 @@ const MessageArea = (props) => {
             onChange = {props.typeMessage}
             rows = "6"
         />
-        <p>After typing the message, you can hit send. <strong>OPTIONAL:</strong> If you type a WhatsApp number in the box below, you can directly send the message to someone even if you haven't saved their number!</p>
+        <p>After typing the message, you can hit send. <strong>OPTIONAL:</strong> If you type a WhatsApp number in the box below, you can directly send the message to someone even if you haven't saved their number. Don't forget the country code! (Preceding '+' can be ignored)</p>
         <input
                 className="NumberBox"
                 type="number"
