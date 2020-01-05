@@ -7,7 +7,7 @@ const NumberArea = (props) => {
             <input
                 className="NumberBox"
                 type="number"
-                placeholder="+910000000000"
+                placeholder="WhatsApp Number"
                 onChange={props.type}
             />
             <a href={props.url()} aria-label="Send your message on WhatsApp to a particular person">
