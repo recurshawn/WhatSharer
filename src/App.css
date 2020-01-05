@@ -110,10 +110,12 @@ textarea, .NumberBox {
   outline: 0;
   background: #fff;
 }
+
 .NumberBox{
   margin: 0 auto;
-  width: 500px;
+  width: 200px;
 }
+
 textarea {
   margin: 0 auto;
   width: 100%;

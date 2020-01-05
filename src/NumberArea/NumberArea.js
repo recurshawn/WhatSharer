@@ -6,7 +6,8 @@ const NumberArea = (props) => {
         <div className="NumberArea">
             <input
                 className="NumberBox"
-                placeholder="Enter phone number you want to text"
+                type="number"
+                placeholder="+910000000000"
                 onChange={props.type}
             />
             <a href={props.url()} aria-label="Send your message on WhatsApp to a particular person">
