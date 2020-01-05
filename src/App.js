@@ -32,14 +32,9 @@ class App extends React.Component{
   }
 
   numberChangeHandler = (e) => {
-    if(e.target.value == "")
-    {
-      return;
-    }
-    else
-    {
+
       this.setState({number: e.target.value});
-    }
+
   }
 
   numberurlGenerator = () =>
@@ -54,6 +49,16 @@ class App extends React.Component{
     var link = encodeURIComponent(this.state.message);
     link = "https://api.whatsapp.com/send?text=" + link;
     return link;
+  }
+
+  urlGenerator = () => {
+    if(this.state.number=="")
+    {
+      return this.messageurlGenerator();
+    }
+    else {
+      return this.numberurlGenerator();
+    }
   }
 
 
@@ -76,9 +81,9 @@ class App extends React.Component{
               <div className = "messageBubble green">
                 <MessageArea
                   typeMessage = {this.messageChangeHandler}
-                  typeNumber = {this.numberurlGenerator}
-                  url = {this.messageurlGenerator}
-                  
+                  typeNumber = {this.numberChangeHandler}
+                  url = {this.urlGenerator}
+                
                 />
                
               </div>
