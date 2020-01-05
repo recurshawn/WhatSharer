@@ -112,8 +112,9 @@ textarea, .NumberBox {
 }
 
 .NumberBox{
-  margin: 0 auto;
+  margin-right: 15px;
   width: 200px;
+  float:left;
 }
 
 textarea {
@@ -124,10 +125,14 @@ textarea {
 }
 
 select:focus,
-textarea:focus {
+textarea:focus, .NumberBox:focus {
     box-shadow: 0 0 0 2px #0096bfab
 }
 
 ::placeholder {
   color: #949494
+}
+
+.ShareIcon{
+  
 }

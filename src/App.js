@@ -70,23 +70,17 @@ class App extends React.Component{
 
               <a href="#FAQs"><p className="messageBubble red">How do I use this?</p></a>
               <div className = "messageBubble white">
-                <p>Hey everyone! Thank you a lot for the love you've shown WhatsAppr! We're doing really well on Product Hunt! Do leave feedback, suggestions or anything if you have to say so that we can improve the project further! Have a great day!
-                  <br/> ~ <a href="https://recurshawn.github.io/">Shawn Pereira</a>
-                </p>
-                <a href="https://www.producthunt.com/posts/whatsappr?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-whatsappr" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=167171&theme=light&period=daily" alt="WhatsAppr - Generate WhatsApp message URLs & send bulk messages easily | Product Hunt Embed" width="250px" height="54px" /></a>
+                <h1>Should I move this to the footer?</h1>
+                <a href="https://www.producthunt.com/posts/whatsappr?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-whatsappr" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=167171&theme=dark&period=daily" alt="WhatsAppr - Generate WhatsApp message URLs & send bulk messages easily | Product Hunt Embed" width="250px" height="54px" /></a>
               </div>
               <div className = "messageBubble green">
                 <MessageArea
-                  type = {this.messageChangeHandler}
+                  typeMessage = {this.messageChangeHandler}
+                  typeNumber = {this.numberurlGenerator}
                   url = {this.messageurlGenerator}
+                  
                 />
-                <br/>
-                <h3>Send message to number</h3>
-                <p>You can send the message typed above directly to a particular WhatsApp number. Enter the number below and hit the Send button!</p>
-                <NumberArea 
-                  type = {this.numberChangeHandler}
-                  url = {this.numberurlGenerator}
-                />
+               
               </div>
               
               <br/>
