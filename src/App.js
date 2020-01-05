@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header/Header.js';
 import MessageArea from './MessageArea/MessageArea.js';
+import NumberArea from './NumberArea/NumberArea.js';
 import URLArea from './URLArea/URLArea.js';
 import BannerArea from './BannerArea/BannerArea.js';
 import Info from './Info/Info.js';
@@ -14,6 +15,7 @@ class App extends React.Component{
     message: "Hey there, I am using WhatsAppr.com \n You should check it out!", //Init value if user doesn't type a message
     messageurl: "https://api.whatsapp.com/send?text=Hey%20there%2C%20I%20am%20using%20WhatsAppr.com%20You%20should%20check%20it%20out!",
     buttoncode: "",
+    number: "",
   }
 
   //Update the state's message value when user types something
@@ -29,11 +31,28 @@ class App extends React.Component{
       
   }
 
+  numberChangeHandler = (e) => {
+    if(e.target.value == "")
+    {
+      return;
+    }
+    else
+    {
+      this.setState({number: e.target.value});
+    }
+  }
+
+  numberurlGenerator = () =>
+  {
+    var link = "https://wa.me/" + this.state.number + "/?text=" + encodeURIComponent(this.state.message);
+    return link;
+  }
+
   //Call this function when you want to use the latest message url
   //It updates the url from the state's message and returns the url too
   messageurlGenerator = () => {
     var link = encodeURIComponent(this.state.message);
-    link = "https://api.whatsapp.com/send?text=" + link
+    link = "https://api.whatsapp.com/send?text=" + link;
     return link;
   }
 
@@ -60,6 +79,10 @@ class App extends React.Component{
                 <MessageArea
                   type = {this.messageChangeHandler}
                   url = {this.messageurlGenerator}
+                />
+                <NumberArea 
+                  type = {this.numberChangeHandler}
+                  url = {this.numberurlGenerator}
                 />
               </div>
               
