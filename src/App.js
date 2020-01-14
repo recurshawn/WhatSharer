@@ -74,9 +74,10 @@ class App extends React.Component{
         <div className="container">
 
               <a href="#FAQs"><p className="messageBubble red">How do I use this?</p></a>
-              <div className = "messageBubble white">
-                <h1>Should I move this to the footer?</h1>
-                <a href="https://www.producthunt.com/posts/whatsappr?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-whatsappr" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=167171&theme=dark&period=daily" alt="WhatsAppr - Generate WhatsApp message URLs & send bulk messages easily | Product Hunt Embed" width="250px" height="54px" /></a>
+              <div className = "messageBubble white row">
+                <div className="col"></div>
+                <div className="col"><a href="https://www.producthunt.com/posts/whatsappr?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-whatsappr" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=167171&theme=dark&period=daily" alt="WhatsAppr - Generate WhatsApp message URLs & send bulk messages easily | Product Hunt Embed" width="250px" height="54px" /></a></div>
+                <div className="col"></div>
               </div>
               <div className = "messageBubble green">
                 <MessageArea
