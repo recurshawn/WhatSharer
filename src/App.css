@@ -98,7 +98,7 @@ a {
 a:hover {
     text-decoration: underline
 }
-textarea {
+textarea, .NumberBox {
   font-family: inherit;
   font-size: inherit;
   /* margin-right: 6px;
@@ -111,6 +111,12 @@ textarea {
   background: #fff;
 }
 
+.NumberBox{
+  margin-right: 15px;
+  width: 200px;
+  float:left;
+}
+
 textarea {
   margin: 0 auto;
   width: 100%;
@@ -119,10 +125,14 @@ textarea {
 }
 
 select:focus,
-textarea:focus {
+textarea:focus, .NumberBox:focus {
     box-shadow: 0 0 0 2px #0096bfab
 }
 
 ::placeholder {
   color: #949494
+}
+
+.ShareIcon{
+  
 }

@@ -3,13 +3,10 @@ import '../App.css';
 
 const ShareIcon = (props) => {
     return(
-        <div className="ShareIcon container">
-            <div className="row">
-                <div className="col"></div>
-                <div className="col-1">
-                        
+        <div className="ShareIcon">
+                                   
                         <svg
-                            float="rightalign"
+                            
                             width = "50px" 
                             xmlns="http://www.w3.org/2000/svg" 
                             aria-hidden="true" 
@@ -24,11 +21,6 @@ const ShareIcon = (props) => {
                             />
                         </svg>
                     
-                   
-                </div>
-                <div className="col"></div>
-
-            </div>
             
         </div>
 
