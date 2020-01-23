@@ -39,7 +39,7 @@ class App extends React.Component{
 
   numberurlGenerator = () =>
   {
-    var link = "https://wa.me/" + this.state.number + "/?text=" + encodeURIComponent(this.state.message);
+    var link = "https://wa.me/" + this.state.number + "?text=" + encodeURIComponent(this.state.message);
     return link;
   }
 
