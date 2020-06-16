@@ -15,6 +15,7 @@ WhatsAppr is a tool to make shareable WhatsApp messages, generate WhatsApp messa
 ## How To Use: ##
 **For bulk messaging:**
 - Just type your message in, click the Send button below it and then select the contacts/groups to send the message to.
+
 **For messaging unsaved numbers**
 - Just type the number you want to message. You can leave the Message box empty. Click send to start messaging.
 
