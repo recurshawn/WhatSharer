@@ -1,5 +1,5 @@
 import React from 'react';
-import CopyIcon from './CopyIcon/CopyIcon.js';
+
 
 class CopyArea extends React.Component {
 

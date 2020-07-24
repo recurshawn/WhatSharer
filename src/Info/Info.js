@@ -1,11 +1,11 @@
 import React from 'react';
 
-//import './Footer.css';
+import Emoji from '../Emoji/Emoji';
 
 const Info = () => {
     return(
         <div>
-            <h2 id="FAQs">🤔 FAQs</h2>
+            <h2 id="FAQs"><Emoji symbol="🤔" label="thinking"/> FAQs</h2>
             <div className="messageBubble white">
                 <h3>What is a WhatsApp Message URL?</h3>
                 <p>A WhatsApp Message URL is a URL (link) that when visited enables the visitor to forward a pre-typed message to their WhatsApp contacts.
@@ -21,7 +21,7 @@ const Info = () => {
                         <li>You want your social media audience to share a pre-typed message with their WhatsApp contacts. Sharing a WhatsApp message URL will allow them to just click the link and send the message directly.</li>
                         <li>If you want your friends on WhatsApp to forward a message on WhatsApp, you could just give them the URL and they can click it for single click forward v/s selecting the message and clicking forward. You also avoid those annoying "Forwarded" labels that way!</li>
                     </ul>
-                    This is just scratching the surface of possibility! You are restricted by your own ingenuity! 🎨
+                    This is just scratching the surface of possibility! You are restricted by your own ingenuity! <Emoji symbol="🎨" label="palette"/>
                 </p>
             </div>
             
@@ -30,7 +30,7 @@ const Info = () => {
                 <p>WhatsAppr is a tool to make WhatsApp messaging easier. You can use it to send the same message to multiple people very quickly, very easily (bulk messaging) or to generate those insanely useful WhatsApp message URLs!
                 </p>
 
-                <p> WhatsAppr is (hopefully) very simple to use! 😋
+                <p> WhatsAppr is (hopefully) very simple to use! <Emoji symbol="😋" label="cheeky"/>
                     <ol>
                         <li>Type your message in the first textbox</li>
                         <li>Hit the Share button to send the message to multiple people at once. OR Copy the message URL from the next textbox to use where you want! Alternatively, you could copy our HTML code to embed a simple banner on your site!</li>
@@ -58,7 +58,7 @@ const Info = () => {
                 <h3>How can I support WhatsAppr?</h3>
                 <p>Thank you for asking that! By using WhatsAppr, you are already supporting it! Additionally, you can also support us by:
                     <ul>
-                        <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Incept_shawn">Telling us you like it.</a> Emotional support matters too!🙏</li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Incept_shawn">Telling us you like it.</a> Emotional support matters too!<Emoji symbol="🙏" label="prayer"/></li>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://forms.gle/62zX2Rf97wZJ5WGV9">Giving us feedback and suggestions</a></li>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/recurshawn/WhatsAppr">Contributing to the code base directly</a>, if you can. WhatsAppr is an Open Source project.</li>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://ko-fi.com/recurshawn">Monetary donations!</a></li>
