@@ -7,8 +7,9 @@
 [![Follow me on Twitter](https://img.shields.io/twitter/follow/incept_shawn?style=social)](https://twitter.com/incept_shawn)
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/recurshawn)
 
+![](https://repository-images.githubusercontent.com/196349395/4408f980-d063-11ea-9000-a9a28a3de50a)
 
-WhatSharer is a tool to make shareable WhatsApp messages, generate WhatsApp message URLs and send bulk WhatsApp messages easily.
+WhatSharer is a tool to text numbers you haven't saved, make shareable WhatsApp messages, generate WhatsApp message URLs and send bulk WhatsApp messages easily.
 
 > WhatSharer is an open-source PWA using the GNU-GPLv3 license hosted at https://whatsharer.com/
 
