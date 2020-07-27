@@ -11,8 +11,8 @@ import './App.css';
 class App extends React.Component{
 
   state = {
-    message: "Hey there, I am using WhatsAppr.com \n You should check it out!", //Init value if user doesn't type a message
-    messageurl: "https://api.whatsapp.com/send?text=Hey%20there%2C%20I%20am%20using%20WhatsAppr.com%20You%20should%20check%20it%20out!",
+    message: "Hey there, I am using WhatSharer.com \n You should check it out!", //Init value if user doesn't type a message
+    messageurl: "https://api.whatsapp.com/send?text=Hey%20there%2C%20I%20am%20using%20WhatSharer.com%20You%20should%20check%20it%20out!",
     buttoncode: "",
     number: "",
   }
@@ -39,7 +39,7 @@ class App extends React.Component{
     {
       msgEncoded = encodeURIComponent(message);
     } else {
-      msgEncoded = encodeURIComponent("Hey there, I am using WhatsAppr.com \n You should check it out!");
+      msgEncoded = encodeURIComponent("Hey there, I am using WhatSharer.com \n You should check it out!");
     }
     if(number!== '')
     {
@@ -54,7 +54,7 @@ class App extends React.Component{
 
 
   bannercodeGenerator = () => {
-    var bannercode = '<a href="' + this.messageurlGenerator(this.state.message, this.state.number)+'"><img src="https://res.cloudinary.com/dxafjfxod/image/upload/v1567597636/WhatsAppr/banner_jhebut.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 200px; width: 50%;" title="Share on WhatsApp" alt="Share on WhatsApp"></a>';
+    var bannercode = '<a href="' + this.messageurlGenerator(this.state.message, this.state.number)+'"><img src="https://res.cloudinary.com/dxafjfxod/image/upload/v1595861934/WhatSharer/Powered_By_WhatSharer_izeybs.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 200px; width: 50%;" title="Share on WhatsApp" alt="Share on WhatsApp"></a>';
     return bannercode;
   }
 
@@ -67,7 +67,7 @@ class App extends React.Component{
               <a href="#FAQs"><p className="messageBubble red">How do I use this?</p></a>
               <div className = "messageBubble white row">
                 <div className="col"></div>
-                <div className="col"><a href="https://www.producthunt.com/posts/whatsappr?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-whatsappr" target="_blank" rel="noopener noreferrer"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=167171&theme=dark&period=daily" alt="WhatsAppr - Generate WhatsApp message URLs & send bulk messages easily | Product Hunt Embed" width="250px" height="54px" /></a></div>
+                <div className="col"><a href="https://www.producthunt.com/posts/whatsappr?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-whatsappr" target="_blank" rel="noopener noreferrer"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=167171&theme=dark&period=daily" alt="WhatSharer - Generate WhatsApp message URLs & send bulk messages easily | Product Hunt Embed" width="250px" height="54px" /></a></div>
                 <div className="col"></div>
               </div>
               <div className = "messageBubble green">

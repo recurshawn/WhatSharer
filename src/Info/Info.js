@@ -17,7 +17,7 @@ const Info = () => {
                 <p>Whenever you need to spread a pre-typed message, use a WhatsApp Message URL! Type the message, copy the URL generated and share it. 
                     <br/>Some specific use cases would be:
                     <ul>
-                        <li>You have an e-commerce/online store and want your customers to tell their friends about it. You can generate a link on WhatsAppr for your message and use that however you want on your site. Alternatively, you could use our default banner.</li>
+                        <li>You have an e-commerce/online store and want your customers to tell their friends about it. You can generate a link on WhatSharer for your message and use that however you want on your site. Alternatively, you could use our default banner.</li>
                         <li>You want your social media audience to share a pre-typed message with their WhatsApp contacts. Sharing a WhatsApp message URL will allow them to just click the link and send the message directly.</li>
                         <li>If you want your friends on WhatsApp to forward a message on WhatsApp, you could just give them the URL and they can click it for single click forward v/s selecting the message and clicking forward. You also avoid those annoying "Forwarded" labels that way!</li>
                     </ul>
@@ -26,24 +26,24 @@ const Info = () => {
             </div>
             
             <div className="messageBubble white">
-                <h3>What is WhatsAppr? How can I use WhatsAppr? Why would I want to use WhatsAppr?</h3>
-                <p>WhatsAppr is a tool to make WhatsApp messaging easier. You can use it to send the same message to multiple people very quickly, very easily (bulk messaging) or to generate those insanely useful WhatsApp message URLs!
+                <h3>What is WhatSharer? How can I use WhatSharer? Why would I want to use WhatSharer?</h3>
+                <p>WhatSharer is a tool to make WhatsApp messaging easier. You can use it to send the same message to multiple people very quickly, very easily (bulk messaging) or to generate those insanely useful WhatsApp message URLs!
                 </p>
 
-                <p> WhatsAppr is (hopefully) very simple to use! <Emoji symbol="😋" label="cheeky"/>
+                <p> WhatSharer is (hopefully) very simple to use! <Emoji symbol="😋" label="cheeky"/>
                     <ol>
                         <li>Type your message in the first textbox</li>
                         <li>Hit the Share button to send the message to multiple people at once. OR Copy the message URL from the next textbox to use where you want! Alternatively, you could copy our HTML code to embed a simple banner on your site!</li>
                     </ol>
                 </p>
-                <p> Need reasons to use WhatsAppr? <a href="#where">Check the question above! </a>
+                <p> Need reasons to use WhatSharer? <a href="#where">Check the question above! </a>
                 </p>
             </div>
 
             <div className="messageBubble white">
-                <h3>Why/How should I do bulk messaging with WhatsAppr?</h3>
-                <p>Sending a single message to multiple people is very easy on WhatsAppr. Just type your message in, click the Send button below it and then select the contacts/groups to send the message to. 
-                <br/>You might also prefer this because it is easier to type in WhatsAppr's message box than the default WhatsApp text box.
+                <h3>Why/How should I do bulk messaging with WhatSharer?</h3>
+                <p>Sending a single message to multiple people is very easy on WhatSharer. Just type your message in, click the Send button below it and then select the contacts/groups to send the message to. 
+                <br/>You might also prefer this because it is easier to type in WhatSharer's message box than the default WhatsApp text box.
                 </p>
             </div>
 
@@ -55,12 +55,12 @@ const Info = () => {
             </div>
 
             <div className="messageBubble white">
-                <h3>How can I support WhatsAppr?</h3>
-                <p>Thank you for asking that! By using WhatsAppr, you are already supporting it! Additionally, you can also support us by:
+                <h3>How can I support WhatSharer?</h3>
+                <p>Thank you for asking that! By using WhatSharer, you are already supporting it! Additionally, you can also support us by:
                     <ul>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Incept_shawn">Telling us you like it.</a> Emotional support matters too!<Emoji symbol="🙏" label="prayer"/></li>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://forms.gle/62zX2Rf97wZJ5WGV9">Giving us feedback and suggestions</a></li>
-                        <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/recurshawn/WhatsAppr">Contributing to the code base directly</a>, if you can. WhatsAppr is an Open Source project.</li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/recurshawn/WhatSharer">Contributing to the code base directly</a>, if you can. WhatSharer is an Open Source project.</li>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://ko-fi.com/recurshawn">Monetary donations!</a></li>
                     </ul>
                 </p>
