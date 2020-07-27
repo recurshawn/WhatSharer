@@ -1,6 +1,5 @@
 # [WhatSharer](https://whatsharer.com)
 
-
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Website](https://img.shields.io/website?down_message=Offline&label=Website&up_message=Online&url=https%3A%2F%2Fwhatsharer.com)](https://whatsharer.com)
 ![Star this repository](https://img.shields.io/github/stars/recurshawn/WhatSharer?style=social)
