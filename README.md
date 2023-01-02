@@ -3,7 +3,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Website](https://img.shields.io/website?down_message=Offline&label=Website&up_message=Online&url=https%3A%2F%2Fwhatsharer.com)](https://whatsharer.com)
 ![Star this repository](https://img.shields.io/github/stars/recurshawn/WhatSharer?style=social)
-[![Follow me on Twitter](https://img.shields.io/twitter/follow/incept_shawn?style=social)](https://twitter.com/incept_shawn)
+[![Follow me on Twitter](https://img.shields.io/twitter/follow/recurshawn?style=social)](https://twitter.com/recurshawn)
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/recurshawn)
 
 ![](https://repository-images.githubusercontent.com/196349395/4408f980-d063-11ea-9000-a9a28a3de50a)
