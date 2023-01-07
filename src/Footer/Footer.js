@@ -5,7 +5,7 @@ import './Footer.css';
 const Footer = () => {
     return(
     <div className="Footer">
-        <p>Made with <Emoji symbol="❤️" label="love"/> by <a href="https://recurshawn.github.io/">Shawn Pereira</a> Twitter:<a href="https://twitter.com/Incept_shawn">@Incept_shawn</a>
+        <p>Made with <Emoji symbol="❤️" label="love"/> by <a href="https://shawn.app/">Shawn Pereira</a> Twitter:<a href="https://twitter.com/recurshawn">@recurshawn</a>
         <br/><a target="_blank" rel="noopener noreferrer" href="https://ko-fi.com/recurshawn"><Emoji symbol="🚀" label="rocket"/> Support this project!</a></p>
         Disclaimer: WhatSharer is not affiliated with WhatsApp Inc.
         <br/>© {new Date().getFullYear()} WhatSharer | All rights reserved
